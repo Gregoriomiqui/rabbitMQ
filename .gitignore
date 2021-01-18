@@ -1,0 +1,25 @@
+node_modules/
+dist/
+build/
+tmp/
+temp/
+.idea/
+.env
+.vscode/
+package-lock.json
+
+#ignore secrets
+.crypt_key
+.crypt_key
+*.pem
+*.key
+*.crt
+k8s/**/configmap.yml
+k8s/**/registry.yml
+k8s/**/secrets.yml
+k8s/**/cronjob-secrets.yml
+yarn.lock
+ormconfig.json*
+.lastlint
+
+newrelic_agent.log
